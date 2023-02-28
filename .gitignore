@@ -1,5 +1,20 @@
+/node_modules
+/package-lock.json
+/pnpm-lock.yaml
 
-node_modules/
-
-
+# *.drawio
+*.drawio.bkp
+.DS_Store
+# idea file
 .idea/
+# Vuepress Cache
+.cache/
+# Vuepress Temp
+.temp/
+# Vuepress Output
+dist/
+# Build files
+packages/*/lib/
+
+#git文件
+.git/
